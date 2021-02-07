@@ -14,6 +14,8 @@ namespace math.WebApi.Controllers
             try
             {
 
+
+                return Ok();
             }
             catch (Exception e)
             {

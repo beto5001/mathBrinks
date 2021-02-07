@@ -5,4 +5,8 @@
     <OutputType>Exe</OutputType>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\OfficialBank\OfficialBank\OfficialBank.Application\math.Application.csproj" />
+  </ItemGroup>
+
 </Project>
