@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maque\\source\\repos\\math\\math\\math.csproj": {}
+    "C:\\Users\\maque\\Source\\Repos\\beto5001\\mathBrinks\\math\\math.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maque\\source\\repos\\math\\math\\math.csproj": {
+    "C:\\Users\\maque\\Source\\Repos\\beto5001\\mathBrinks\\math\\math.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maque\\source\\repos\\math\\math\\math.csproj",
+        "projectUniqueName": "C:\\Users\\maque\\Source\\Repos\\beto5001\\mathBrinks\\math\\math.csproj",
         "projectName": "math",
-        "projectPath": "C:\\Users\\maque\\source\\repos\\math\\math\\math.csproj",
+        "projectPath": "C:\\Users\\maque\\Source\\Repos\\beto5001\\mathBrinks\\math\\math.csproj",
         "packagesPath": "C:\\Users\\maque\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maque\\source\\repos\\math\\math\\obj\\",
+        "outputPath": "C:\\Users\\maque\\Source\\Repos\\beto5001\\mathBrinks\\math\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\maque\\AppData\\Roaming\\NuGet\\NuGet.Config",
