@@ -24,6 +24,19 @@
         "runtime": {
           "bin/placeholder/math.Domain.dll": {}
         }
+      },
+      "math.Helper/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "math.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/math.Helper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/math.Helper.dll": {}
+        }
       }
     }
   },
@@ -37,12 +50,18 @@
       "type": "project",
       "path": "../math.Domain/math.Domain.csproj",
       "msbuildProject": "../math.Domain/math.Domain.csproj"
+    },
+    "math.Helper/1.0.0": {
+      "type": "project",
+      "path": "../math.Helper/math.Helper.csproj",
+      "msbuildProject": "../math.Helper/math.Helper.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "math.Application >= 1.0.0",
-      "math.Domain >= 1.0.0"
+      "math.Domain >= 1.0.0",
+      "math.Helper >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -74,6 +93,9 @@
           "projectReferences": {
             "C:\\Users\\maque\\source\\repos\\beto\\math\\math.Domain\\math.Domain.csproj": {
               "projectPath": "C:\\Users\\maque\\source\\repos\\beto\\math\\math.Domain\\math.Domain.csproj"
+            },
+            "C:\\Users\\maque\\source\\repos\\beto\\math\\math.Helper\\math.Helper.csproj": {
+              "projectPath": "C:\\Users\\maque\\source\\repos\\beto\\math\\math.Helper\\math.Helper.csproj"
             },
             "C:\\Users\\maque\\source\\repos\\OfficialBank\\OfficialBank\\OfficialBank.Application\\math.Application.csproj": {
               "projectPath": "C:\\Users\\maque\\source\\repos\\OfficialBank\\OfficialBank\\OfficialBank.Application\\math.Application.csproj"

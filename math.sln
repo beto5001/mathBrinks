@@ -12,6 +12,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "math.Application", "..\..\OfficialBank\OfficialBank\OfficialBank.Application\math.Application.csproj", "{5CCE859C-9A29-487A-8C9D-A10DB8CE9EE8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{DB4D14B7-184F-4986-8196-0384DBCCA2D1}"
+	ProjectSection(SolutionItems) = preProject
+		db.json = db.json
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "math.Domain", "math.Domain\math.Domain.csproj", "{0E50E67A-3F61-4BD5-BD7D-2A8880735CF8}"
 EndProject

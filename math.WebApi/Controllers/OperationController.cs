@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using math.Application.AppServices;
+using Microsoft.AspNetCore.Mvc;
 using System;
 
 namespace math.WebApi.Controllers
@@ -7,6 +8,12 @@ namespace math.WebApi.Controllers
     [ApiController]
     public class OperationController : ControllerBase
     {
+        private OperationApp _service;
+
+        public OperationController()
+        {
+            _service = new OperationApp();
+        }
 
         [HttpGet]
         public IActionResult Get()
