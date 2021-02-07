@@ -11,3 +11,11 @@ C:\Users\maque\source\repos\math\math\obj\Debug\netcoreapp3.1\math.csproj.CoreCo
 C:\Users\maque\source\repos\math\math\obj\Debug\netcoreapp3.1\math.dll
 C:\Users\maque\source\repos\math\math\obj\Debug\netcoreapp3.1\math.pdb
 C:\Users\maque\source\repos\math\math\obj\Debug\netcoreapp3.1\math.genruntimeconfig.cache
+C:\Users\maque\source\repos\beto\math\math\bin\Debug\netcoreapp3.1\math.deps.json
+C:\Users\maque\source\repos\beto\math\math\bin\Debug\netcoreapp3.1\math.dll
+C:\Users\maque\source\repos\beto\math\math\bin\Debug\netcoreapp3.1\math.pdb
+C:\Users\maque\source\repos\beto\math\math\obj\Debug\netcoreapp3.1\math.AssemblyInfoInputs.cache
+C:\Users\maque\source\repos\beto\math\math\obj\Debug\netcoreapp3.1\math.AssemblyInfo.cs
+C:\Users\maque\source\repos\beto\math\math\obj\Debug\netcoreapp3.1\math.csproj.CoreCompileInputs.cache
+C:\Users\maque\source\repos\beto\math\math\obj\Debug\netcoreapp3.1\math.dll
+C:\Users\maque\source\repos\beto\math\math\obj\Debug\netcoreapp3.1\math.pdb

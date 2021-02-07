@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30709.132
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "math", "math\math.csproj", "{EB48F9A5-3C2A-486C-91F7-BAD9D59718A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "math", "math\math.csproj", "{EB48F9A5-3C2A-486C-91F7-BAD9D59718A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "old", "old", "{B6D4BC96-4701-46EF-82BB-212E126588B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{79340701-A49B-4FB5-A68C-E8CBA99CD3A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "math.WebApi", "math.WebApi\math.WebApi.csproj", "{A4659F67-6237-4D2A-B4F4-BD224602C58E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,17 @@ Global
 		{EB48F9A5-3C2A-486C-91F7-BAD9D59718A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB48F9A5-3C2A-486C-91F7-BAD9D59718A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB48F9A5-3C2A-486C-91F7-BAD9D59718A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4659F67-6237-4D2A-B4F4-BD224602C58E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4659F67-6237-4D2A-B4F4-BD224602C58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4659F67-6237-4D2A-B4F4-BD224602C58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4659F67-6237-4D2A-B4F4-BD224602C58E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB48F9A5-3C2A-486C-91F7-BAD9D59718A8} = {B6D4BC96-4701-46EF-82BB-212E126588B3}
+		{A4659F67-6237-4D2A-B4F4-BD224602C58E} = {79340701-A49B-4FB5-A68C-E8CBA99CD3A6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {806F49D9-B49C-4C1A-BB11-26D09A551395}
