@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maque\\source\\repos\\beto\\math\\math.WebApi\\math.WebApi.csproj": {}
+    "C:\\Users\\maque\\source\\repos\\beto\\math\\math.Helper\\math.Helper.csproj": {}
   },
   "projects": {
     "C:\\Users\\maque\\source\\repos\\beto\\math\\math.Domain\\math.Domain.csproj": {
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\maque\\source\\repos\\beto\\math\\math.WebApi\\math.WebApi.csproj": {
+    "C:\\Users\\maque\\source\\repos\\beto\\math\\math.Helper\\math.Helper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maque\\source\\repos\\beto\\math\\math.WebApi\\math.WebApi.csproj",
-        "projectName": "math.WebApi",
-        "projectPath": "C:\\Users\\maque\\source\\repos\\beto\\math\\math.WebApi\\math.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\maque\\source\\repos\\beto\\math\\math.Helper\\math.Helper.csproj",
+        "projectName": "math.Helper",
+        "projectPath": "C:\\Users\\maque\\source\\repos\\beto\\math\\math.Helper\\math.Helper.csproj",
         "packagesPath": "C:\\Users\\maque\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maque\\source\\repos\\beto\\math\\math.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\maque\\source\\repos\\beto\\math\\math.Helper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\maque\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -84,9 +84,6 @@
             "projectReferences": {
               "C:\\Users\\maque\\source\\repos\\beto\\math\\math.Domain\\math.Domain.csproj": {
                 "projectPath": "C:\\Users\\maque\\source\\repos\\beto\\math\\math.Domain\\math.Domain.csproj"
-              },
-              "C:\\Users\\maque\\source\\repos\\OfficialBank\\OfficialBank\\OfficialBank.Application\\math.Application.csproj": {
-                "projectPath": "C:\\Users\\maque\\source\\repos\\OfficialBank\\OfficialBank\\OfficialBank.Application\\math.Application.csproj"
               }
             }
           }
@@ -111,66 +108,10 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\maque\\source\\repos\\OfficialBank\\OfficialBank\\OfficialBank.Application\\math.Application.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\maque\\source\\repos\\OfficialBank\\OfficialBank\\OfficialBank.Application\\math.Application.csproj",
-        "projectName": "math.Application",
-        "projectPath": "C:\\Users\\maque\\source\\repos\\OfficialBank\\OfficialBank\\OfficialBank.Application\\math.Application.csproj",
-        "packagesPath": "C:\\Users\\maque\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maque\\source\\repos\\OfficialBank\\OfficialBank\\OfficialBank.Application\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\maque\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp2.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp2.1": {
-            "targetAlias": "netcoreapp2.1",
-            "projectReferences": {
-              "C:\\Users\\maque\\source\\repos\\beto\\math\\math.Domain\\math.Domain.csproj": {
-                "projectPath": "C:\\Users\\maque\\source\\repos\\beto\\math\\math.Domain\\math.Domain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp2.1": {
-          "targetAlias": "netcoreapp2.1",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
