@@ -5,7 +5,7 @@ namespace math.Helper
 {
     public class OperationModelToVm
     {
-        public static List<string> OperationsToArrayString(List<Operation> operations)
+        public List<string> OperationsToArrayString(List<Operation> operations)
         {
             var viewOperations = new List<string>();
 

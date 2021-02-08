@@ -24,6 +24,9 @@
     ".NETCoreApp,Version=v3.1": {
       "math.WebApi/1.0.0": {
         "dependencies": {
+          "math.Application": "1.0.0",
+          "math.Domain": "1.0.0",
+          "math.Helper": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -312,6 +315,37 @@
         },
         "compile": {
           "math.WebApi.dll": {}
+        }
+      },
+      "math.Application/1.0.0": {
+        "dependencies": {
+          "math.Domain": "1.0.0",
+          "math.Helper": "1.0.0"
+        },
+        "runtime": {
+          "math.Application.dll": {}
+        },
+        "compile": {
+          "math.Application.dll": {}
+        }
+      },
+      "math.Domain/1.0.0": {
+        "runtime": {
+          "math.Domain.dll": {}
+        },
+        "compile": {
+          "math.Domain.dll": {}
+        }
+      },
+      "math.Helper/1.0.0": {
+        "dependencies": {
+          "math.Domain": "1.0.0"
+        },
+        "runtime": {
+          "math.Helper.dll": {}
+        },
+        "compile": {
+          "math.Helper.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -2010,6 +2044,21 @@
   },
   "libraries": {
     "math.WebApi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "math.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "math.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "math.Helper/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

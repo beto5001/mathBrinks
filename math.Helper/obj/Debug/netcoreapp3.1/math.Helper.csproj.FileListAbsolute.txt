@@ -1,0 +1,12 @@
+C:\Users\maque\source\repos\beto\math\math.Helper\bin\Debug\netcoreapp3.1\math.Helper.deps.json
+C:\Users\maque\source\repos\beto\math\math.Helper\bin\Debug\netcoreapp3.1\math.Helper.dll
+C:\Users\maque\source\repos\beto\math\math.Helper\bin\Debug\netcoreapp3.1\math.Helper.pdb
+C:\Users\maque\source\repos\beto\math\math.Helper\bin\Debug\netcoreapp3.1\math.Domain.dll
+C:\Users\maque\source\repos\beto\math\math.Helper\bin\Debug\netcoreapp3.1\math.Domain.pdb
+C:\Users\maque\source\repos\beto\math\math.Helper\obj\Debug\netcoreapp3.1\math.Helper.csprojAssemblyReference.cache
+C:\Users\maque\source\repos\beto\math\math.Helper\obj\Debug\netcoreapp3.1\math.Helper.AssemblyInfoInputs.cache
+C:\Users\maque\source\repos\beto\math\math.Helper\obj\Debug\netcoreapp3.1\math.Helper.AssemblyInfo.cs
+C:\Users\maque\source\repos\beto\math\math.Helper\obj\Debug\netcoreapp3.1\math.Helper.csproj.CoreCompileInputs.cache
+C:\Users\maque\source\repos\beto\math\math.Helper\obj\Debug\netcoreapp3.1\math.Helper.csproj.CopyComplete
+C:\Users\maque\source\repos\beto\math\math.Helper\obj\Debug\netcoreapp3.1\math.Helper.dll
+C:\Users\maque\source\repos\beto\math\math.Helper\obj\Debug\netcoreapp3.1\math.Helper.pdb

@@ -1,6 +1,7 @@
 ﻿using math.Application.AppServices;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using System.Collections.Generic;
 
 namespace math.WebApi.Controllers
 {
@@ -20,9 +21,9 @@ namespace math.WebApi.Controllers
         {
             try
             {
+                List<string> operations = _service.GetOperations();
 
-
-                return Ok();
+                return Ok(operations);
             }
             catch (Exception e)
             {

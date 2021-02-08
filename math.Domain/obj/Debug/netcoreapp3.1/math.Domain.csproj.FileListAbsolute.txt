@@ -1,0 +1,9 @@
+C:\Users\maque\source\repos\beto\math\math.Domain\bin\Debug\netcoreapp3.1\math.Domain.deps.json
+C:\Users\maque\source\repos\beto\math\math.Domain\bin\Debug\netcoreapp3.1\math.Domain.dll
+C:\Users\maque\source\repos\beto\math\math.Domain\bin\Debug\netcoreapp3.1\math.Domain.pdb
+C:\Users\maque\source\repos\beto\math\math.Domain\obj\Debug\netcoreapp3.1\math.Domain.csprojAssemblyReference.cache
+C:\Users\maque\source\repos\beto\math\math.Domain\obj\Debug\netcoreapp3.1\math.Domain.AssemblyInfoInputs.cache
+C:\Users\maque\source\repos\beto\math\math.Domain\obj\Debug\netcoreapp3.1\math.Domain.AssemblyInfo.cs
+C:\Users\maque\source\repos\beto\math\math.Domain\obj\Debug\netcoreapp3.1\math.Domain.csproj.CoreCompileInputs.cache
+C:\Users\maque\source\repos\beto\math\math.Domain\obj\Debug\netcoreapp3.1\math.Domain.dll
+C:\Users\maque\source\repos\beto\math\math.Domain\obj\Debug\netcoreapp3.1\math.Domain.pdb
