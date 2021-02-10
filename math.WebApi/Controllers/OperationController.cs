@@ -1,4 +1,7 @@
 ﻿using math.Application.AppServices;
+using math.Domain.Models;
+using math.Domain.ViewModels;
+using math.Helper;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -9,11 +12,13 @@ namespace math.WebApi.Controllers
     [ApiController]
     public class OperationController : ControllerBase
     {
-        private OperationApp _service;
+        private readonly OperationApp _service;
+        private readonly OperationModelToVm _adapter;
 
         public OperationController()
         {
             _service = new OperationApp();
+            _adapter = new OperationModelToVm();
         }
 
         [HttpGet]
@@ -21,9 +26,10 @@ namespace math.WebApi.Controllers
         {
             try
             {
-                List<string> operations = _service.GetOperations();
+                List<Operation> operations = _service.GetOperations();
+                List<OperationVM> response = _adapter.OperationsToOperationVM(operations);
 
-                return Ok(operations);
+                return Ok(response);
             }
             catch (Exception e)
             {
